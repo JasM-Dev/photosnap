@@ -1,0 +1,22 @@
+{
+  "name": "photosnap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "scss": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcollins414/photosnap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmcollins414/photosnap/issues"
+  },
+  "homepage": "https://github.com/jmcollins414/photosnap#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

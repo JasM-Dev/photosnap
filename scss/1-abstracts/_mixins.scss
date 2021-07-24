@@ -1,0 +1,25 @@
+@mixin xl_heading {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 4.17;
+}
+@mixin lg_heading {
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0;
+}
+@mixin md_heading {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0;
+}
+@mixin sm_heading{
+    font-size:12px;
+    line-height: 16px;
+    letter-spacing: 2;
+}
+@mixin body_font{
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0;
+}

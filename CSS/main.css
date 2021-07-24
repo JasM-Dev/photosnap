@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -302,3 +303,26 @@ template {
    */
 [hidden] {
   display: none; }
+
+.bttn_primary_dark {
+  color: #fff;
+  background: #000; }
+  .bttn_primary_dark:hover {
+    color: #000;
+    background: #dfdfdf; }
+
+.bttn_primary_light {
+  color: #000;
+  background: #fff; }
+  .bttn_primary_light:hover {
+    background: #dfdfdf; }
+
+.bttn_secondary_dark {
+  color: #000; }
+  .bttn_secondary_dark:hover {
+    text-decoration: underline; }
+
+.bttn_secondary_light {
+  color: #fff; }
+  .bttn_secondary_light:hover {
+    text-decoration: underline; }

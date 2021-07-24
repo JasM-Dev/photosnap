@@ -1,0 +1,29 @@
+
+
+.bttn_primary_dark{
+    color: $lightest;
+    background: $dark;
+    &:hover{
+        color: $dark;
+        background: $light;
+    }
+}
+.bttn_primary_light{
+    color: $dark;
+    background: $lightest;
+    &:hover{
+        background: $light;
+    }
+}
+.bttn_secondary_dark{
+    color: $dark;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.bttn_secondary_light{
+    color: $lightest;
+    &:hover{
+        text-decoration: underline;
+    }
+}

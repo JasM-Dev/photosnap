@@ -1,6 +1,7 @@
 
 
 .bttn_primary_dark{
+    padding: 12px 24px;
     color: $lightest;
     background: $dark;
     &:hover{
@@ -9,6 +10,7 @@
     }
 }
 .bttn_primary_light{
+    padding: 12px 24px;
     color: $dark;
     background: $lightest;
     &:hover{
@@ -16,12 +18,14 @@
     }
 }
 .bttn_secondary_dark{
+    padding: 12px 24px;
     color: $dark;
     &:hover{
         text-decoration: underline;
     }
 }
 .bttn_secondary_light{
+    padding: 12px 24px;
     color: $lightest;
     &:hover{
         text-decoration: underline;

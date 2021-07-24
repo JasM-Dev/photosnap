@@ -1,0 +1,41 @@
+.site_header{
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    .site_nav{
+        display: none;
+        ul{
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: repeat(3,1fr);
+            grid-gap: 37px;
+            font-weight: 700;
+            text-transform: uppercase;
+            @include sm_heading;
+            letter-spacing: 2px;
+        }
+    }
+    .bttn_primary_dark{
+        display: none;
+    }
+    .logo_container{
+        width: 170px;
+        height: 16px;
+    }
+    @media(min-width: $tablet){
+        padding: 28px 39px;
+        align-items: center;
+       .site_nav{
+           display: grid;
+       } 
+       .bttn_primary_dark{
+           display: block; 
+       }
+       .hamburger_bttn{
+           display: none;
+       }
+    }
+    @media(min-width: $desktop){
+        padding: 28px 192px;
+    }
+}

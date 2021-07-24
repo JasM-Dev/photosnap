@@ -1,3 +1,4 @@
+//color variables
 $dark: #000;
 $light: #dfdfdf;
 $lightest: #fff;
@@ -7,8 +8,12 @@ $rainbow-gradient: linear-gradient(
   #bc7198 43.46%,
   #5a77ff 83.33%
 );
+//typography variables 
+$fontfamily:'DM Sans', sans-serif;
+$bold: 700;
+$regular: 400;
 
 //media query sizes
 $mobile: 375px;
 $tablet: 768px;
-$desktop: 1400px;
+$desktop: 1300px;

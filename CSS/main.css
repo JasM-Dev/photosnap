@@ -304,6 +304,23 @@ template {
 [hidden] {
   display: none; }
 
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit; }
+
+ol, ul {
+  list-style: none; }
+
+button {
+  background: transparent;
+  border: 0; }
+
+button:active,
+button:focus {
+  border: 0;
+  outline: 0; }
+
 .bttn_primary_dark {
   color: #fff;
   background: #000; }
@@ -326,3 +343,8 @@ template {
   color: #fff; }
   .bttn_secondary_light:hover {
     text-decoration: underline; }
+
+.rainbow {
+  height: 6px;
+  width: 128px;
+  background: linear-gradient(26.57deg, #ffc593 0.42%, #bc7198 43.46%, #5a77ff 83.33%); }

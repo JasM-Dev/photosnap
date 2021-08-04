@@ -369,6 +369,10 @@ h4 {
   line-height: 16px;
   letter-spacing: 2; }
 
+main {
+  position: relative;
+  z-index: 10; }
+
 body {
   margin: 0;
   padding: 0;
@@ -432,7 +436,7 @@ body {
       line-height: 16px;
       letter-spacing: 2;
       letter-spacing: 2px; }
-  .site_header .bttn_primary_dark {
+  .site_header .bttn {
     display: none; }
   .site_header .logo_container {
     width: 170px;
@@ -450,6 +454,45 @@ body {
   @media (min-width: 1300px) {
     .site_header {
       padding: 28px 192px; } }
+
+.modal_bg {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); }
+  .modal_bg .mobile_menu_container {
+    position: position;
+    width: 100vw;
+    background: #fff;
+    color: #000;
+    margin-top: 0;
+    padding-bottom: 32px; }
+    .modal_bg .mobile_menu_container .mobile_nav {
+      width: 82.67%;
+      margin: 0 auto;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.25); }
+      .modal_bg .mobile_menu_container .mobile_nav ul {
+        margin-top: 0;
+        display: grid;
+        row-gap: 20px;
+        padding-top: 32px;
+        padding-bottom: 20px; }
+        .modal_bg .mobile_menu_container .mobile_nav ul .mobile_nav_link:hover {
+          text-decoration: underline; }
+    .modal_bg .mobile_menu_container .bttn {
+      display: block;
+      width: 82.67%;
+      margin: 20px auto 0 auto; }
 
 .site_footer {
   background: #000;

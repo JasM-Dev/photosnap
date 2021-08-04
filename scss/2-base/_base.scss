@@ -59,6 +59,10 @@ h3 {
 h4 {
   @include sm_heading;
 }
+main{
+  position:relative;
+  z-index:10;
+}
 
 body {
   margin: 0;

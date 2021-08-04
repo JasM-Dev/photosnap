@@ -15,7 +15,7 @@
       letter-spacing: 2px;
     }
   }
-  .bttn_primary_dark {
+  .bttn {
     display: none;
   }
   .logo_container {
@@ -37,5 +37,50 @@
   }
   @media (min-width: $desktop) {
     padding: 28px 192px;
+  }
+}
+
+.modal_bg {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  .mobile_menu_container {
+    position: position;
+    width: 100vw;
+    background: $lightest;
+    color: $dark;
+    margin-top: 0;
+    padding-bottom: 32px;
+    .mobile_nav {
+      width: 82.67%;
+      margin: 0 auto;
+      font-weight: $bold;
+      font-size: 15px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+      ul {
+        margin-top: 0;
+        display: grid;
+        row-gap: 20px;
+        padding-top: 32px;
+        padding-bottom: 20px;
+        .mobile_nav_link:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+    .bttn {
+      display: block;
+      width: 82.67%;
+      margin: 20px auto 0 auto;
+    }
   }
 }

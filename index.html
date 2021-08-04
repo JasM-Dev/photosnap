@@ -20,12 +20,25 @@
         </ul>
       </nav>
         <button class="bttn bttn_primary_dark">Get an Invite</button>
-        <button type="button" class="hamburger_bttn">
-          <img src="/assets/shared/mobile/menu.svg" alt="hamburger icon" />
+        <button type="button" class="hamburger_bttn" id="menu_icon">
+          <img src="/assets/shared/mobile/menu.svg" alt="hamburger icon" id="menu_icon_img" />
         </button>
+       
      
     </header>
     <main id="home">
+      <div class="modal_bg" id="mobile_menu_modal">
+        <div class="mobile_menu_container">
+          <nav class="mobile_nav">
+            <ul>
+              <li><a class="mobile_nav_link" href="stories.html">Stories</a></li>
+              <li><a class="mobile_nav_link" href="features.html">Features</a></li>
+              <li><a class="mobile_nav_link" href="pricing.html">Pricings</a></li>
+            </ul>
+          </nav>
+          <button class="bttn bttn_primary_dark">Get an Invite</button>
+        </div>
+      </div>
 
       <section class="home_hero_section hero">
         <picture>
@@ -274,5 +287,6 @@
         </div>
       </div>
     </footer>
+    <script src="mobilemenu.js"></script>
   </body>
 </html>

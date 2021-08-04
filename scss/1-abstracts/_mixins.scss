@@ -1,7 +1,15 @@
+
+
 @mixin xl_heading {
-    font-size: 40px;
-    line-height: 48px;
-    letter-spacing: 4.17;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 3.333px;
+    @media(min-width: $tablet){
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 4.17;
+    }
+  
 }
 @mixin lg_heading {
     font-size: 24px;
@@ -22,4 +30,8 @@
     font-size: 15px;
     line-height: 25px;
     letter-spacing: 0;
+}
+@mixin hero{
+    background-color: $dark;
+    color: $lightest;
 }

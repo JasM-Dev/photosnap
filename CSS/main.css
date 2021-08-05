@@ -1054,9 +1054,12 @@ body {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
   row-gap: 55px; }
-  .features_list img {
-    width: 23.5%;
-    margin: 0 auto; }
+  .features_list li {
+    display: grid;
+    grid-template-rows: 72px 1fr 1fr; }
+    .features_list li svg {
+      justify-self: center;
+      align-self: center; }
   .features_list .feature_heading {
     text-align: center; }
   .features_list .feature_p {
@@ -1074,60 +1077,59 @@ body {
       row-gap: 72px;
       column-gap: 11px;
       width: 89.85%; }
-      .features_list img {
-        align-self: center;
-        width: 20.83%; }
       .features_list .feature_heading {
         margin-top: 48px; } }
   @media (min-width: 1300px) {
     .features_list {
       grid-template-columns: repeat(3, 1fr);
       margin: 160px auto 160px auto; }
+      .features_list .feature_heading {
+        margin-bottom: 16px; }
       .features_list .feature_p {
         width: 85%;
         margin: 0 auto; } }
 
-.features_beta_section {
+.beta_section {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr; }
-  .features_beta_section picture {
+  .beta_section picture {
     grid-row: 1/2;
     grid-column: 1/2; }
-  .features_beta_section .section_text {
+  .beta_section .section_text {
     grid-row: 1/2;
     grid-column: 1/2;
     z-index: 1;
     justify-self: center;
     align-self: center;
     width: 82.67%; }
-  .features_beta_section .section_heading {
+  .beta_section .section_heading {
     font-size: 32px;
     line-height: 40px;
     letter-spacing: 3.333px;
     color: #fff;
     text-transform: uppercase; }
     @media (min-width: 768px) {
-      .features_beta_section .section_heading {
+      .beta_section .section_heading {
         font-size: 40px;
         line-height: 48px;
         letter-spacing: 4.17; } }
-  .features_beta_section .bttn {
+  .beta_section .bttn {
     padding-top: 0;
     margin-top: 24px; }
-  .features_beta_section .bttn svg {
+  .beta_section .bttn svg {
     stroke: #fff;
     margin-left: 16px; }
   @media (min-width: 768px) {
-    .features_beta_section .section_text {
+    .beta_section .section_text {
       width: 89.71%;
       display: flex;
       justify-content: space-between;
       align-items: center; }
-    .features_beta_section .section_heading {
+    .beta_section .section_heading {
       width: 58.1%; } }
   @media (min-width: 1300px) {
-    .features_beta_section .section_text {
+    .beta_section .section_text {
       width: 79.28%; }
-    .features_beta_section .section_heading {
+    .beta_section .section_heading {
       width: 35%; } }

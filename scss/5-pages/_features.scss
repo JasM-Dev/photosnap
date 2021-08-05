@@ -58,10 +58,15 @@
   grid-template-rows: repeat(6, 1fr);
   row-gap: 55px;
 
-  img {
-    width: 23.5%;
-    margin: 0 auto;
-  }
+li{
+    display: grid;
+    grid-template-rows: 72px 1fr 1fr;
+    svg{
+        justify-self: center;
+        align-self: center;
+    }
+}
+
   .feature_heading {
     text-align: center;
   }
@@ -80,10 +85,6 @@
 
     column-gap: 11px;
     width: 89.85%;
-    img {
-      align-self: center;
-      width: 20.83%;
-    }
     .feature_heading {
       margin-top: 48px;
     }
@@ -91,6 +92,9 @@
   @media (min-width: $desktop) {
     grid-template-columns: repeat(3, 1fr);
     margin: 160px auto 160px auto;
+    .feature_heading{
+        margin-bottom: 16px;
+    }
     .feature_p {
       width: 85%;
       margin: 0 auto;
@@ -98,7 +102,7 @@
   }
 }
 
-.features_beta_section {
+.beta_section {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;

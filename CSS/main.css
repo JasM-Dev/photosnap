@@ -441,6 +441,8 @@ body {
       line-height: 16px;
       letter-spacing: 2px;
       letter-spacing: 2px; }
+      .site_header .site_nav ul .header_nav_link:hover {
+        opacity: .3; }
   .site_header .bttn {
     display: none; }
   .site_header .logo_container {

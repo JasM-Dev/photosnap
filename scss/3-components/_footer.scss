@@ -48,6 +48,10 @@
       margin-left: 22px;
     }
   }
+  .footer_nav_link:hover,
+  .footer_nav_link:active{
+    opacity: .3;
+  }
   .copyright {
     font-size: 15px;
     line-height: 20px;
@@ -108,6 +112,25 @@
     align-self: start;
   }
 }
+.socials_icon {
+  fill: $lightest;
+}
+.fb_icon:hover{
+  fill: url(#a);
+}
+.yt_icon:hover{
+  fill: url(#yt);
+}
+.tweet_icon:hover{
+  fill: url(#tweet);
+}
+.pin_icon:hover{
+  fill: url(#pin);
+}
+.insta_icon:hover{
+  fill: url(#insta);
+}
+
 @media(min-width: $desktop){
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto;

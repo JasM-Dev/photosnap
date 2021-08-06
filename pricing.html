@@ -57,9 +57,9 @@
                     <label class="toggler active" id="monthly">Monthly</label>
                     <div class="toggle">
                       <input type="checkbox" id="switcher" class="check"/>
-                      <div class="b switch"></div>
+                      <div class="switch"></div>
                     </div>
-                    <label class="toggler" id="hourly">Hourly</label>
+                    <label class="toggler" id="yearly">Yearly</label>
                   </div>
                   <ul class="plans_list">
                       
@@ -68,7 +68,11 @@
                         <p class="plan_p">
                             Includes basic usage of our platform. Recommended for new and aspiring photographers.   
                         </p>
-                        <span class="plan_price">$19.00<span class="per_span">per month</span></span>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="plan_price">19.00</span>
+                                <span class="per_span">per month</span>
+                            </div>
                         <button class="bttn bttn_primary_dark">pick plan</button>
                     </li>
 
@@ -77,7 +81,12 @@
                           <p class="plan_p">
                             More advanced features available. Recommended for photography veterans and professionals. 
                           </p>
-                          <span class="plan_price">$39.00<span class="per_span">per month</span></span>
+                          <div class="price">
+                            <span class="currency">$</span>
+                            <span class="plan_price">39.00</span>
+                            <span class="per_span">per month</span>
+                        </div>
+                         
                           <button class="bttn bttn_primary_light">pick plan</button>
                       </li>
 
@@ -86,7 +95,12 @@
                         <p class="plan_p">
                             Additional features available such as more detailed metrics. Recommended for business owners.   
                         </p>
-                        <span class="plan_price">$99.00<span class="per_span">per month</span></span>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="plan_price">99.00</span>
+                            <span class="per_span">per month</span>
+                        </div>
+                        
                         <button class="bttn bttn_primary_dark">pick plan</button>
                     </li>
                   </ul>
@@ -158,5 +172,6 @@
         </div>
       </footer>
       <script src="mobilemenu.js"></script>
+      <script src="price-toggle.js"></script>
 </body>
 </html>

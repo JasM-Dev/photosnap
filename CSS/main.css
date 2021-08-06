@@ -1236,20 +1236,16 @@ body {
     margin-bottom: 40px;
     text-align: center;
     opacity: 0.6; }
-  .plans_list .plan_price {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  .plans_list .currency, .plans_list .plan_price {
     font-size: 40px;
     line-height: 48px;
-    font-weight: 700;
-    margin-bottom: 40px;
-    font-weight: 400; }
-    .plans_list .plan_price .per_span {
-      font-size: 15px;
-      line-height: 25px;
-      letter-spacing: 0;
-      opacity: .6; }
+    font-weight: 700; }
+  .plans_list .plan_price {
+    margin-bottom: 4px; }
+  .plans_list .per_span {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px; }
   .plans_list .bttn {
     font-size: 12px;
     line-height: 16px;

@@ -102,19 +102,19 @@
     text-align: center;
     opacity: 0.6;
   }
-  .plan_price {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  .currency{
     font-size: 40px;
     line-height: 48px;
-    font-weight: $bold;
-    margin-bottom: 40px;
-    font-weight: $regular;
-    .per_span {
-      @include body_font;
-      opacity: .6;
-    }
+    font-weight: $bold;   
+  }
+  .plan_price {
+    @extend .currency;
+    margin-bottom: 4px;
+  }
+  .per_span{
+      display: block;
+      text-align: center;
+      margin-bottom: 40px;
   }
   .bttn {
     @include sm_heading;
@@ -122,7 +122,7 @@
     font-weight: $bold;
   }
 }
-//styles for the pro plan 
+// color styles for the pro plan 
 .plans_list #pro{
     background: $dark;
     color: $lightest;

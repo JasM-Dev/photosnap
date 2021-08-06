@@ -8,12 +8,22 @@ $rainbow-gradient: linear-gradient(
   #bc7198 43.46%,
   #5a77ff 83.33%
 );
-//typography variables 
-$fontfamily:'DM Sans', sans-serif;
+$fb_gradient: linear-gradient(225deg, #63afdb 0%, #6028f1 100%);
+$yt_gradient: linear-gradient(45deg, #d3205a 0%, #ff5a5a 100%);
+$tweet_gradient: linear-gradient(225deg, #65ffeb 0%, #27718a 100%);
+$pin_gradient: linear-gradient(225deg, #f6c683 0%, #de3838 100%);
+$insta_gradient: linear-gradient(
+  26.57deg,
+  #ffc593 0%,
+  #bc7198 43.29%,
+  #5a77ff 83.33%
+);
+//typography variables
+$fontfamily: "DM Sans", sans-serif;
 $bold: 700;
 $regular: 400;
 
 //media query sizes
 $mobile: 375px;
 $tablet: 768px;
-$desktop: 1300px;
+$desktop: 1400px;

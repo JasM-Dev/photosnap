@@ -1,6 +1,7 @@
 .features_hero_section {
   @include hero;
   .section_text {
+    position: relative;
     padding-top: 72px;
     padding-bottom: 72px;
     width: 84.8%;
@@ -13,12 +14,20 @@
       opacity: 0.6;
     }
   }
+  .section_text::after{
+    @include rainbow_border;
+    @media(min-width: $desktop){
+      height: 144px;
+      top: 35%;
+    }
+  }
   @media (min-width: $tablet) {
     display: flex;
     flex-direction: row-reverse;
     .section_text {
-      padding-bottom: 0;
-      padding-top: 173px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       margin: 0 auto;
       width: 60%;
       text-align: center;
@@ -35,9 +44,10 @@
     }
   }
   @media (min-width: $desktop) {
+
     .section_text {
-      width: 43.57%;
-      padding-left: 112px;
+      width: 42.36%;
+      padding: 0px 0px 0px 112px;
     }
     .section_heading {
       width: 100%;

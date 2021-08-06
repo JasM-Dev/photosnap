@@ -1,11 +1,21 @@
 .pricing_hero_section {
   @include hero;
   .section_text {
+    position: relative;
     padding-top: 72px;
     padding-bottom: 72px;
     width: 85%;
     margin: 0 auto;
+
+    ::after {
+      @include rainbow_border;
+      @media (min-width: $tablet) {
+        height: 144px;
+        top: 32%;
+      }
+    }
   }
+
   .section_heading {
     @include xl_heading;
   }
@@ -16,27 +26,27 @@
   @media (min-width: $tablet) {
     display: flex;
     flex-direction: row-reverse;
-    .section_text{
-        width: 55.45%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 54px;
+    .section_text {
+      width: 55.45%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 54px;
     }
-    .section_p{
-        width: 70%;
+    .section_p {
+      width: 70%;
     }
   }
-  @media(min-width: $desktop){
-      .section_text{
-          padding-left: 112px;
-      }
-      .section_p{
-          width: 60%;
-      }
+  @media (min-width: $desktop) {
+    .section_text {
+      padding-left: 112px;
+      width: 42.36%;
+    }
+    .section_p {
+      width: 62%;
+    }
   }
 }
-
 
 .switch_container {
   width: 255px;
@@ -95,14 +105,13 @@
   .active {
     opacity: 1;
   }
-  @media(min-width: $tablet){
-      margin-top: 112px;
+  @media (min-width: $tablet) {
+    margin-top: 112px;
   }
-  @media(min-width: $desktop){
-      margin-top: 120px;
+  @media (min-width: $desktop) {
+    margin-top: 120px;
   }
 }
-
 
 .plans_list {
   display: grid;
@@ -110,8 +119,22 @@
   width: 84.8%;
   margin: 40px auto 64px auto;
   #pro {
+    position: relative;
     background: $dark;
     color: $lightest;
+    ::after {
+      @include rainbow_border;
+      width: 100%;
+      @media (min-width: $tablet) {
+        content: "";
+        width: 6px;
+        height: 100%;
+      }
+      @media (min-width: $desktop) {
+        height: 6px;
+        width: 100%;
+      }
+    }
   }
 
   .plan {
@@ -219,7 +242,6 @@
     }
   }
 }
-
 
 .compare_table {
   text-transform: uppercase;

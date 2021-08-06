@@ -1217,7 +1217,7 @@ body {
       @media (min-width: 768px) {
         .pricing_hero_section .section_text ::after {
           height: 144px;
-          top: 32%; } }
+          top: 36.5%; } }
   .pricing_hero_section .section_heading {
     font-size: 32px;
     line-height: 40px;

@@ -36,6 +36,8 @@
       }
   }
 }
+
+
 .switch_container {
   width: 255px;
   margin: 64px auto 40px auto;
@@ -100,6 +102,7 @@
       margin-top: 120px;
   }
 }
+
 
 .plans_list {
   display: grid;
@@ -167,7 +170,6 @@
         grid-column: 1/2;
         text-align: left;
         margin-bottom: 32px;
-        justify-self: center;
       }
       .bttn {
         grid-column: 1/2;
@@ -217,7 +219,7 @@
     }
   }
 }
-// color styles for the pro plan
+
 
 .compare_table {
   text-transform: uppercase;
@@ -310,7 +312,7 @@
       padding-bottom: 23.5px;
     }
   }
-  @media (min-width: 1400px) {
+  @media (min-width: $desktop) {
     margin: 160px auto;
     width: 50.76%;
   }

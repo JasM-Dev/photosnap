@@ -1294,8 +1294,7 @@ body {
         .plans_list .plan .plan_p {
           grid-column: 1/2;
           text-align: left;
-          margin-bottom: 32px;
-          justify-self: center; }
+          margin-bottom: 32px; }
         .plans_list .plan .bttn {
           grid-column: 1/2;
           width: 100%; }
@@ -1418,7 +1417,7 @@ body {
       align-items: center;
       padding-top: 23.5px;
       padding-bottom: 23.5px; } }
-  @media (min-width: 1400px) {
+  @media (min-width: 1300px) {
     .compare_table {
       margin: 160px auto;
       width: 50.76%; } }

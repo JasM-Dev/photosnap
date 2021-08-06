@@ -32,3 +32,23 @@
   background-color: $dark;
   color: $lightest;
 }
+@mixin rainbow_border{
+  background: $rainbow-gradient;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  height: 6px;
+  width: 128px;
+  @media(min-width: $tablet){
+    content: none;
+  }
+  @media(min-width: $desktop){
+    content: '';
+    width: 6px;
+    height: 100%
+  }
+  
+}

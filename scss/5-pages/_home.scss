@@ -166,6 +166,10 @@
   }
   article::after{
     @include story_border;
+    content: none;
+  }
+  article:hover::after{
+    content: '';
   }
   picture {
     grid-column: 1/3;

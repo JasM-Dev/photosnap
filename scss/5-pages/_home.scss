@@ -158,6 +158,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
+    cursor: pointer;
   }
   article:hover{
     position: relative;

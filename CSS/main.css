@@ -807,7 +807,8 @@ body {
 .home_stories_section article {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto; }
+  grid-template-rows: auto auto;
+  cursor: pointer; }
 
 .home_stories_section article:hover {
   position: relative;
@@ -1002,7 +1003,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row: 1fr;
-    color: #fff; }
+    color: #fff;
+    cursor: pointer; }
   .stories_grid article:hover {
     position: relative;
     z-index: 1;
